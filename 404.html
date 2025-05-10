@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+  </head>
+  <body>
+    <script>
+      // Get the current path, query string, and hash
+      var path = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+
+      // Construct the redirect URL
+      var redirect = window.location.origin + '/RoadMap-app' + '/index.html?p=' + path + search + hash;
+
+      // Redirect to index.html with the original path preserved in the query string
+      window.location.replace(redirect);
+    </script>
+  </body>
+</html>
