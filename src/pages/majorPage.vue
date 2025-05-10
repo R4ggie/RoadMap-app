@@ -19,22 +19,33 @@ import ConIcon from '/ConIcon.png'
 
       <div class="box">
         <div class="cs">
-          <img :src=CsIcon alt="CETSU" />
+          <router-link to="/Computerpage">
+            <img :src=CsIcon alt="CETSU" />
+          </router-link>
+
         </div>
         <div class="text">
           <router-link to="/Computerpage">الحاسب الالي</router-link>
         </div>
 
       </div>
+
+
       <div class="box">
-        <img :src=TeleIcon alt="CETSU" />
+        <router-link to="/Telepage">
+          <img :src=TeleIcon alt="CETSU" />
+        </router-link>
+
         <div class="text">
-          <router-link to="/Telepage">التصالات</router-link>
+          <router-link to="/Telepage">الاتصالات</router-link>
         </div>
       </div>
 
       <div class="box">
-        <img :src=ConIcon alt="CETSU" />
+        <router-link to="/Controlpage">
+          <img :src=ConIcon alt="CETSU" />
+        </router-link>
+
         <div class="text">
           <router-link to="/Controlpage">التحكم الالي</router-link>
         </div>
@@ -82,6 +93,7 @@ import ConIcon from '/ConIcon.png'
 a {
   text-decoration: none;
   color: white;
+  text-align: center;
 }
 
 img {
