@@ -9,7 +9,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx' // <--
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/RoadMap-app',
+  base: './',  //RoadMap-app
   plugins: [
     vue(),
     vueJsx(), // <--
