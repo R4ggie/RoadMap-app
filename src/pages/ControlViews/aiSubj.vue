@@ -36,10 +36,10 @@ function Toggle() {
             <p>Image Processing</p>
           </li>
           <li>
-            <p>Maachine Learning</p>
+            <p>Machine Learning</p>
           </li>
           <li>
-            <p>Deep Larning</p>
+            <p>Deep Learning</p>
           </li>
 
         </ul>

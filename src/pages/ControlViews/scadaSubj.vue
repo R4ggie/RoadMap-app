@@ -30,7 +30,7 @@ function Toggle() {
       <div class="subjcts">
         <ul>
           <li>
-            <p>مقدمة في االتحكم المنطقي المبرمج </p>
+            <p>مقدمة في التحكم المنطقي المبرمج </p>
           </li>
           <li>
             <p>Ladder Logic</p>
