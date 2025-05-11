@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router';
+import { createRouter, createWebHistory } from 'vue-router';
 import IndexPage from '@/pages/IndexPage.vue';
 import Computerpage from '@/pages/ComputerPage.vue';
 import Telepage from '@/pages/TelePage.vue';
@@ -143,12 +143,10 @@ export const routes = [
 
 
 
-
-
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(import.meta.env.BASE_URL), //import.meta.env.BASE_URL
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
 });
 
