@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHistory } from 'vue-router'; //createWebHashHistory
 import IndexPage from '@/pages/IndexPage.vue';
 import Computerpage from '@/pages/ComputerPage.vue';
 import Telepage from '@/pages/TelePage.vue';
